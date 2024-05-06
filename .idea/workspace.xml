@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1405b81d-6595-49b4-a676-e110045110e6" name="Changes" comment="Backtracking" />
+    <list default="true" id="1405b81d-6595-49b4-a676-e110045110e6" name="Changes" comment="DS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDataStructure/META-INF/KotlinDataStructure.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDataStructure/META-INF/KotlinDataStructure.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDataStructure/hashmap/FindWinner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDataStructure/hashmap/FindWinner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDataStructure/hashmap/FindWinnerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDataStructure/hashmap/FindWinnerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/hashmap/FindWinner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/FindWinner.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,9 +65,16 @@
       <recent name="DynamicProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FindWinnerKt">
-    <configuration name="FibonacciKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.FibonacciKt" />
+  <component name="RunManager" selected="Kotlin.MergeIntervalsKt">
+    <configuration name="BoatsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.BoatsKt" />
+      <module name="KotlinDataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareVersionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.CompareVersionsKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,22 +87,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobSchedulingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.JobSchedulingKt" />
+    <configuration name="LargestPositiveKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.LargestPositiveKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetworkDelayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.dijkstra.NetworkDelayKt" />
-      <module name="KotlinDataStructure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseStringIIIKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ReverseStringIIIKt" />
+    <configuration name="MergeIntervalsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intervals.MergeIntervalsKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MergeIntervalsKt" />
+        <item itemvalue="Kotlin.BoatsKt" />
+        <item itemvalue="Kotlin.CompareVersionsKt" />
+        <item itemvalue="Kotlin.LargestPositiveKt" />
         <item itemvalue="Kotlin.FindWinnerKt" />
-        <item itemvalue="Kotlin.JobSchedulingKt" />
-        <item itemvalue="Kotlin.NetworkDelayKt" />
-        <item itemvalue="Kotlin.FibonacciKt" />
-        <item itemvalue="Kotlin.ReverseStringIIIKt" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +120,14 @@
       <option name="presentableId" value="Default" />
       <updated>1687807229160</updated>
     </task>
+    <task id="LOCAL-00001" summary="DS">
+      <created>1708857625472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708857625472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +140,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DS" />
+    <option name="LAST_COMMIT_MESSAGE" value="DS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -524,6 +542,21 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/FindWinner.kt</url>
           <line>66</line>
           <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/LargestPositive.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/LargestPositive.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/Boats.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/LinkedListHelper.kt</url>

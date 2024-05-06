@@ -106,4 +106,3 @@ internal class Solution {
         return freq.size == freqSet.size
     }
 }
-}
