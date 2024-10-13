@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1405b81d-6595-49b4-a676-e110045110e6" name="Changes" comment="DS">
+    <list default="true" id="1405b81d-6595-49b4-a676-e110045110e6" name="Changes" comment="Interval Based">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/math/UglyNumber.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDataStructure/META-INF/KotlinDataStructure.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDataStructure/META-INF/KotlinDataStructure.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDataStructure/intervals/MergeIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDataStructure/intervals/MergeIntervals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDataStructure/intervals/MergeIntervalsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDataStructure/intervals/MergeIntervalsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PriorityQueue/MinimumCostToHireKWorkers.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -65,16 +66,9 @@
       <recent name="DynamicProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KthSmallestPrimeFactorKt">
-    <configuration name="BoatsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.BoatsKt" />
-      <module name="KotlinDataStructure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompareVersionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.CompareVersionsKt" />
+  <component name="RunManager" selected="Kotlin.FactorialKt">
+    <configuration name="FactorialKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.FactorialKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,15 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestPositiveKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.LargestPositiveKt" />
+    <configuration name="RecursionBrainstromingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.RecursionBrainstromingKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervalsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intervals.MergeIntervalsKt" />
+    <configuration name="UglyNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.UglyNumberKt" />
+      <module name="KotlinDataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleSizeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parkingarage.VehicleSizeKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FactorialKt" />
+        <item itemvalue="Kotlin.VehicleSizeKt" />
+        <item itemvalue="Kotlin.UglyNumberKt" />
+        <item itemvalue="Kotlin.RecursionBrainstromingKt" />
         <item itemvalue="Kotlin.KthSmallestPrimeFactorKt" />
-        <item itemvalue="Kotlin.MergeIntervalsKt" />
-        <item itemvalue="Kotlin.BoatsKt" />
-        <item itemvalue="Kotlin.CompareVersionsKt" />
-        <item itemvalue="Kotlin.LargestPositiveKt" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708857625472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Interval Based">
+      <created>1715646129285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715646129285</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +163,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DS" />
-    <option name="LAST_COMMIT_MESSAGE" value="DS" />
+    <MESSAGE value="Interval Based" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interval Based" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -590,6 +599,31 @@
           <line>44</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/recursion/RecursionBrainstroming.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/recursion/RecursionBrainstroming.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/recursion/RecursionBrainstroming.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/math/UglyNumber.kt</url>
+          <line>51</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/math/UglyNumber.kt</url>
+          <line>58</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/LinkedListHelper.kt</url>
           <line>72</line>
@@ -598,6 +632,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/recursion/Factorial.kt</url>
+          <line>9</line>
+          <properties class="recursion.Factorial" method="factorial">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
