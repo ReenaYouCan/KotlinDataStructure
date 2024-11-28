@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1405b81d-6595-49b4-a676-e110045110e6" name="Changes" comment="Interval Based">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/math/UglyNumber.kt" afterDir="false" />
+    <list default="true" id="1405b81d-6595-49b4-a676-e110045110e6" name="Changes" comment="Kotlin Data Structure">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/bubblesort/BubbleSort.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDataStructure/META-INF/KotlinDataStructure.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDataStructure/META-INF/KotlinDataStructure.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PriorityQueue/MinimumCostToHireKWorkers.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,37 +65,37 @@
       <recent name="DynamicProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FactorialKt">
-    <configuration name="FactorialKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.FactorialKt" />
+  <component name="RunManager" selected="Kotlin.BinarySearchKt">
+    <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.binarysearch.BinarySearchKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSmallestPrimeFactorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PriorityQueue.KthSmallestPrimeFactorKt" />
+    <configuration name="BubbleSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.bubblesort.BubbleSortKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionBrainstromingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.RecursionBrainstromingKt" />
+    <configuration name="InsertionSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.InsertionSortKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UglyNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.UglyNumberKt" />
+    <configuration name="QuickSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.QuickSortKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleSizeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parkingarage.VehicleSizeKt" />
+    <configuration name="RecursionBasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.basics.RecursionBasicsKt" />
       <module name="KotlinDataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.FactorialKt" />
-        <item itemvalue="Kotlin.VehicleSizeKt" />
-        <item itemvalue="Kotlin.UglyNumberKt" />
-        <item itemvalue="Kotlin.RecursionBrainstromingKt" />
-        <item itemvalue="Kotlin.KthSmallestPrimeFactorKt" />
+        <item itemvalue="Kotlin.BinarySearchKt" />
+        <item itemvalue="Kotlin.RecursionBasicsKt" />
+        <item itemvalue="Kotlin.QuickSortKt" />
+        <item itemvalue="Kotlin.InsertionSortKt" />
+        <item itemvalue="Kotlin.BubbleSortKt" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715646129285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Kotlin Data Structure">
+      <created>1728842013829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728842013829</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +170,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DS" />
     <MESSAGE value="Interval Based" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interval Based" />
+    <MESSAGE value="Kotlin Data Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Data Structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -624,6 +631,66 @@
           <line>58</line>
           <option name="timeStamp" value="140" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/bubblesort/BubbleSort.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/bubblesort/BubbleSort.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/bubblesort/BubbleSort.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/InsertionSort.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/InsertionSort.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/InsertionSort.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/QuickSort.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/QuickSort.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/QuickSort.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/QuickSort.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/recursion/basics/RecursionBasics.kt</url>
+          <line>69</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/recursion/basics/RecursionBasics.kt</url>
+          <line>68</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/LinkedListHelper.kt</url>
           <line>72</line>
@@ -642,6 +709,15 @@
           </properties>
           <option name="timeStamp" value="141" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/sorting/QuickSort.kt</url>
+          <line>2</line>
+          <properties method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -655,5 +731,6 @@
     <SUITE FILE_PATH="coverage/KotlinDataStructure$FibonacciKt.ic" NAME="FibonacciKt Coverage Results" MODIFIED="1697838649984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/KotlinDataStructure$ExtraCharactersInStringKt.ic" NAME="ExtraCharactersInStringKt Coverage Results" MODIFIED="1693765318633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/KotlinDataStructure$FindTheCenterOfStrarGraphKt.ic" NAME="FindTheCenterOfStrarGraphKt Coverage Results" MODIFIED="1693340331260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/KotlinDataStructure$QuickSortKt.ic" NAME="QuickSortKt Coverage Results" MODIFIED="1732574761481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
