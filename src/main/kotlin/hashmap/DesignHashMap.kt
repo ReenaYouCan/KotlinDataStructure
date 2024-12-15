@@ -6,7 +6,7 @@ import java.util.*
 class DesignHashMap {
 }
 
-internal class Pair<U, V>(var first: U, var second: V)
+internal class                                                               Pair<U, V>(var first: U, var second: V)
 
 
 internal class Bucket {
